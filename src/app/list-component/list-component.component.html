@@ -1,0 +1,10 @@
+<section>
+    <h2>Найпопулярніші книги</h2>
+    <div *ngFor="let item of items" class="item-card">
+      <h2>{{ item.title }}</h2>
+      <p><strong>Жанр:  </strong> {{ item.genre }}</p>
+      <p>{{ item.text }}</p>
+      <button (click)="readReview(item)">Прочитати рецензію...</button>
+    </div>
+      
+  </section>

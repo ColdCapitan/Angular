@@ -1,0 +1,56 @@
+/* Центруємо контейнер для форми по горизонталі і вертикалі */
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; /* Заповнює половину висоти вікна браузера */
+}
+
+.form-content {
+  text-align: center; /* Центрує текст і форму всередині контейнера */
+}
+
+form {
+  background-color: #ffffff; /* Білий фон для форми */
+  border: 1px solid #dcdcdc; /* Світло-сіра рамка */
+  padding: 2em;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легке тіньове ефект для форми */
+  max-width: 400px; /* Обмеження ширини форми */
+  width: 100%; /* Ширина форми 100% до максимуму */
+  margin-top: 1em; /* Відступ від заголовка */
+}
+
+h2 {
+  margin-bottom: 1em; /* Відступ між заголовком і формою */
+}
+
+div {
+  margin-bottom: 1em;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  align-self: flex-start;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}

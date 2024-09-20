@@ -1,0 +1,57 @@
+.item-card {
+  border: 1px solid #ccc;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-radius: 8px;
+  background-color: #fcd4b5; /* Легкий кремовий фон для картки */
+}
+
+.item-card h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  text-align: center; /* Вирівнює заголовок по центру */
+  color: #000000; /* Білий колір тексту заголовка */
+  background-color: #a77325; /* Темно-сірий фон для заголовка */
+  padding: 0.5em;
+  border-radius: 5px; /* Закруглені кути фону заголовка */
+}
+
+.item-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 0.5em;
+}
+
+.item-card p {
+  margin: 0.5em 0;
+  color: #333; /* Текстовий колір елементів списку */
+  background-color: #f5f5dc; /* Кремовий фон для елементів списку */
+  padding: 0.5em;
+  border-radius: 5px; /* Закруглені кути фону елементів списку */
+}
+
+/* Додаткові стилі для елементів списку з іншими пастельними тонами */
+.item-card p:nth-child(odd) {
+  background-color: #fce5cd; /* Персиковий фон для непарних елементів */
+}
+
+.item-card p:nth-child(even) {
+  background-color: #e6d8ad; /* Кавовий фон для парних елементів */
+}
+
+
+/* Стилізація кнопки */
+.item-card button {
+  background-color: #000; /* Чорний фон кнопки */
+  color: #fff; /* Білий колір тексту */
+  border: none; /* Без межі */
+  padding: 0.5em 1em; /* Внутрішні відступи */
+  border-radius: 5px; /* Закруглені кути */
+  font-weight: bold; /* Жирний текст */
+  cursor: pointer; /* Курсор у вигляді руки */
+  transition: background-color 0.3s ease; /* Плавний перехід кольору фону */
+}
+
+.item-card button:hover {
+  background-color: #333; 
+}
